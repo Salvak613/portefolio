@@ -53,7 +53,11 @@ function StartMenu() {
         className={styles.img1}
         onClick={openAllWindows}
       />
-      <p className={styles.text}>AllInfo.exe</p>
+      <p className={styles.text}>
+        Jules
+        <br />
+        Clauwaert.exe
+      </p>
       <div className={styles.startMenu}>
         <div onClick={toggleMenu} className={styles.startButton}>
           <img

@@ -13,9 +13,10 @@
 .text {
   position: relative;
   top: -530px;
-  left: 15px;
+  left: -370px;
   color: #ffffff;
   filter: drop-shadow(1px 1px 1px black);
+  text-align: center;
 }
 
 .startButton {
