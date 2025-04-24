@@ -15,12 +15,12 @@
   border-style: solid;
   padding: 1px;
   position: absolute;
-  top: -540px;
-  left: 548px;
-  width: 300px;
-  height: 350px;
-  overflow: hidden;
+  top: -550px;
+  left: 130px;
+  width: 400px;
+  height: 410px;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .titleButton {
@@ -41,20 +41,10 @@
   text-align: center;
 }
 
-.link {
-  color: #0000ee;
-  text-decoration: underline;
-  cursor: pointer;
-}
-
-.exemple {
-  width: 200px;
-}
-
 .windowContent {
+  overflow: auto;
   max-width: 100%;
   max-height: 100%;
-  overflow: auto;
 }
 
 ::-webkit-scrollbar {

@@ -15,10 +15,10 @@
   border-style: solid;
   padding: 1px;
   position: absolute;
-  top: -540px;
-  left: 548px;
-  width: 300px;
-  height: 350px;
+  top: -500px;
+  left: 20px;
+  width: 230px;
+  height: 225px;
   overflow: hidden;
   box-sizing: border-box;
 }
