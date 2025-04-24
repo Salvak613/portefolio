@@ -1,0 +1,15 @@
+
+.navBar {
+    background: #c3c3c3;
+    border-width: 3px;
+    border-color: #FFFFFF #808080 #808080 #FFFFFF;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;;
+    border-style:solid;
+    position: relative;
+    height: 50px;
+    bottom : 0px;
+    left: 0px;
+    width: 100%;
+}

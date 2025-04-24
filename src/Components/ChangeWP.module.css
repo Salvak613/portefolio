@@ -1,0 +1,76 @@
+
+.changeWPIcon {
+    height : 32px;
+    position: absolute;
+    bottom : 10px;
+    right : 150px;
+    user-select: none;
+}
+
+.menu {
+    position: absolute;
+    bottom: 53px;
+    right : 55px;
+    visibility: hidden; 
+    background: #c3c3c3;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #FFFFFF #808080 #808080 #FFFFFF;
+    box-shadow: 1px 1px 2px black;
+}
+
+
+
+.menu.active {
+    visibility: visible; 
+}
+
+.menu ul {
+    list-style : none;
+    padding: 0;
+}
+
+.menu ul li {
+    width: 150px;
+    font-size : 1rem;
+    display: flex;
+    color: black;
+    height: 100%;
+    font-family: sans-serif;
+    padding: 5px;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+    user-select: none;
+}
+
+.menu ul li:hover {
+    color: #FFFFFF;
+    background-color: #0823d3 ;
+}
+
+
+.bgText {
+    font-family :Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    font-size: clamp(2rem, 10vw, 15rem);
+    font-variant: small-caps;
+    position: fixed;
+    padding : 20px;
+    top: -800%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: transparent;
+    text-shadow: 
+        2px 2px 4px rgba(0, 0, 0, 0.014), 
+        -2px -2px 4px rgba(255, 255, 255, 0.151); 
+    background: linear-gradient(to bottom, #0000001f, #55555556);
+    -webkit-background-clip: text;
+    background-clip: text;
+    user-select : none;
+    z-index: 500;
+  }
+
+  .bgText.hidden {
+    opacity : 0;
+  }

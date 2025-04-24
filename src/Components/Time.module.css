@@ -1,0 +1,15 @@
+.time > p {
+    position: absolute;
+    bottom : -9px;
+    right : 10px;
+    text-align: center;
+    border-width: 3px;
+    border-color: #808080 #FFFFFF #FFFFFF #808080;
+    border-style: solid;
+    padding : 3px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    height : 25px;
+    font-family: sans-serif;
+}

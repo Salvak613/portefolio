@@ -1,0 +1,39 @@
+.window-top {
+    height:18px;
+    width:100%;
+    background:#000080;
+    color:#FFF;
+    display: flex;
+    justify-content: space-between;
+    user-select: none;
+}
+
+ #window {
+    background:#C0C0C0;
+    border-width: 1px;
+    border-color: #FFFFFF #808080 #808080 #FFFFFF;
+    border-style: solid;
+    padding: 1px;
+    position: absolute;
+    top: -100px;
+    left: 50px;
+}
+
+.titleButton{
+    position:absolute;
+    right:2px;
+    top:2px;
+    margin:2px 2px 2px 0;
+    float:right;
+    width:14px;
+    height:13.5px;
+    background:#C0C0C0;
+    border-width:1px;
+    border-color:#FFFFFF #808080 #808080 #FFFFFF;
+    padding:0;
+    font-size:9px;
+    font-weight:bold;
+    font-family:Tahoma;
+    text-align:center;
+  }
+
