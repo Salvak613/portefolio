@@ -1,6 +1,5 @@
 import "./App.css";
 import NavBar from "./Components/NavBar.tsx";
-import WindowsContainer from "./Components/WindowsContainer.tsx";
 import { WindowProvider } from "./Context/WindowContext";
 import { DraggableProvider } from "./Context/DraggableContext";
 
@@ -11,7 +10,7 @@ function App() {
         <img className="monitor" src="/stock img/screen9.png" />
         <div className="screen-container">
           <div className="screen-content">
-            <NavBar className="NavBar" />
+            <NavBar />
           </div>
         </div>
       </DraggableProvider>

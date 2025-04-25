@@ -3,7 +3,6 @@ import Time from "./Time.tsx";
 import Styles from "./NavBar.module.css";
 import StartMenu from "./StartMenu";
 import ChangeWP from "./ChangeWP";
-import WindowsContainer from "./WindowsContainer.tsx";
 
 function NavBar() {
   const [isMobileWarningVisible, setIsMobileWarningVisible] = useState(false);
@@ -13,10 +12,8 @@ function NavBar() {
       setIsMobileWarningVisible(window.innerWidth < 950);
     };
 
-    // Vérifie la largeur initiale
     handleResize();
 
-    // Ajoute un écouteur pour les changements de taille
     window.addEventListener("resize", handleResize);
 
     return () => {

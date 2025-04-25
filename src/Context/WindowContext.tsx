@@ -3,7 +3,9 @@ import React, { createContext, useContext, useState } from "react";
 
 const WindowContext = createContext<any>(null);
 
-export const WindowProvider: React.FC = ({ children }) => {
+export const WindowProvider: React.FC<{ children: React.ReactNode }> = ({
+  children,
+}) => {
   const [state, setState] = useState<any>(null);
 
   return (
