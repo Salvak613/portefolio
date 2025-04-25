@@ -23,7 +23,13 @@ const Passions: React.FC<PassionsProps> = ({ isOpen, toggleWindow }) => {
           <h3>Passions</h3>
           <ul>
             <li>
-              <a href="">Ma musique</a>
+              <a
+                href="https://open.spotify.com/intl-fr/artist/4yN6CdZ5ucwCBQvxQg2Vwe?trackId=73496YD5dQaAdU2cfAMvYf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Ma musique
+              </a>
             </li>
             <li>Les voyages : Japon, USA, Brésil...</li>
             <li>Le gaming</li>
