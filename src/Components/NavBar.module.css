@@ -28,3 +28,67 @@
   color: #ffffff;
   filter: drop-shadow(1px 1px 1px black);
 }
+
+.mobileWarning {
+  position: fixed;
+  border-width: 1px;
+  border-color: #ffffff #808080 #808080 #ffffff;
+  border-style: solid;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  background: #c0c0c0;
+  color: black;
+  padding: 20px;
+  z-index: 1000;
+  text-align: center;
+  width: 80%;
+  max-width: 300px;
+  padding: 1px;
+  padding-bottom: 10px;
+}
+
+.titleButton {
+  position: absolute;
+  right: 2px;
+  top: 2px;
+  margin: 2px 2px 2px 0;
+  float: right;
+  width: 14px;
+  height: 13.5px;
+  background: #c0c0c0;
+  border-width: 1px;
+  border-color: #ffffff #808080 #808080 #ffffff;
+  padding: 0;
+  font-size: 9px;
+  font-weight: bold;
+  font-family: Tahoma;
+  text-align: center;
+}
+
+.window-top {
+  height: 18px;
+  width: 100%;
+  background: #000080;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  user-select: none;
+}
+
+.okButton {
+  font-family: sans-serif;
+  height: 35px;
+  border-width: 3px;
+  border-color: #ffffff #808080 #808080 #ffffff;
+  border-style: solid;
+  gap: 3px;
+  padding: 3px;
+  user-select: none;
+  width: 100px;
+}
+
+.okButton:active {
+  border-width: 3px;
+  border-color: #808080 #ffffff #ffffff #808080;
+}

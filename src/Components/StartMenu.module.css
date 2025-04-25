@@ -98,3 +98,10 @@
 .window1.active {
   visibility: visible;
 }
+
+@media (max-width: 950px) {
+  .text,
+  .img1 {
+    display: none;
+  }
+}
