@@ -72,7 +72,7 @@ function StartMenu() {
           <ul>
             <li onClick={togglePortfolioWindow}>
               <img src="/stock img/Projects.png" />
-              Portefolio
+              Portfolio
             </li>
             <li onClick={toggleCurriculumVitaeWindow}>
               <img src="/stock img/Last jobs.png" />

@@ -14,7 +14,7 @@ const WindowsContainer: React.FC<{
     <div>
       <DraggableWindow id={styles.window}>
         <div className={styles["window-top"]}>
-          Windows Container
+          Portfolio
           <button className={styles.titleButton} onClick={toggleWindow}>
             X
           </button>
