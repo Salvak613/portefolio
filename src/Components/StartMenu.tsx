@@ -87,7 +87,7 @@ function StartMenu() {
         </div>
       </div>
       <div className={styles.startMenu}>
-        <div className={styles.startButton}>
+        <div className={styles.startButton} onClick={toggleMenu}>
           <img
             className={styles.startMenuIcon}
             src="/stock img/icons8-windows-95-96.png"
