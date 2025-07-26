@@ -48,18 +48,46 @@ function StartMenu() {
 
   return (
     <>
-      <img
-        src="/stock img/exe.png"
-        className={styles.img1}
-        onClick={openAllWindows}
-      />
-      <p className={styles.text}>
-        Jules
-        <br />
-        Clauwaert.exe
-      </p>
+      <div className={styles.icons}>
+        <div className={styles.icon}>
+          <img
+            src="/stock img/exe.png"
+            className={styles.img1}
+            onClick={openAllWindows}
+          />
+          <p className={styles.text}>
+            Jules
+            <br />
+            Clauwaert.exe
+          </p>
+        </div>
+        <div className={styles.icon}>
+          <a
+            href="https://echodust.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ cursor: "default" }}
+          >
+            <img src="/stock img/e.png" className={styles.img1} />
+          </a>
+          <p className={styles.text}>Echoes</p>
+        </div>
+        <div className={styles.icon}>
+          <a
+            href="https://wankulpocket.fr"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ cursor: "default", marginLeft: "20px" }}
+          >
+            <img src="/stock img/banane.jpg" className={styles.img1} />
+          </a>
+          <p className={styles.text} style={{ marginLeft: "20px" }}>
+            Wankul Pocket
+          </p>
+        </div>
+      </div>
       <div className={styles.startMenu}>
-        <div onClick={toggleMenu} className={styles.startButton}>
+        <div className={styles.startButton}>
           <img
             className={styles.startMenuIcon}
             src="/stock img/icons8-windows-95-96.png"
